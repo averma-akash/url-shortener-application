@@ -23,5 +23,5 @@ A Spring Boot-based URL Shortener Service similar to Bit.ly that allows users to
 - ✅ Docker & Docker Compose
 
 ## 2️⃣ Clone the Repository
-- git clone https://github.com/your-username/url-shortener-service.git
+- git clone https://github.com/averma-akash/url-shortener-application.git
 - cd url-shortener-service
