@@ -18,17 +18,16 @@ A Spring Boot-based URL Shortener Service similar to **Bit.ly** that allows user
 - **Oracle DB** (persistent storage)  
 - **JWT & OAuth2** (authentication)  
 - **ELK Stack** (logging & monitoring)  
-- **Swagger** (API documentation)  
-- **Docker & Docker Compose** (containerized environment)  
+- **Swagger** (API documentation) 
 
 ---
 
 ## **📂 Project Structure**
 ```
-📦 url-shortener-service
+📦 url-shortener-application
  ┣ 📂 src
  ┃ ┣ 📂 main
- ┃ ┃ ┣ 📂 java/com/example/urlshortener
+ ┃ ┃ ┣ 📂 java/url/shortener/application
  ┃ ┃ ┃ ┣ 📂 controller  # REST Controllers
  ┃ ┃ ┃ ┣ 📂 service     # Business Logic
  ┃ ┃ ┃ ┣ 📂 repository  # Database Layer
