@@ -1,0 +1,20 @@
+spring:
+ application:
+  name: url-shortener-appliction
+ cloud:
+  config:
+   enabled: true
+ profiles:
+  active: dev
+
+url:
+ app:
+  jwtCookieName: urlshortner
+  jwtSecret: urlShortnerServiceSecretKey32byte
+  jwtExpirationMs: 3600000
+  
+springdoc:
+ api-docs:
+  enabled: true
+ swagger-ui:
+  enabled: true
